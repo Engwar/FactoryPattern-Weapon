@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 protocol Weapon {
     var damage: Int {get}
     var speed: Int {get}
