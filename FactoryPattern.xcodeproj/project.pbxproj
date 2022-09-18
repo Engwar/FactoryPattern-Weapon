@@ -13,10 +13,10 @@
 		94BEEF98225619F20096A608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BEEF97225619F20096A608 /* Assets.xcassets */; };
 		94BEEF9B225619F20096A608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BEEF99225619F20096A608 /* LaunchScreen.storyboard */; };
 		94BEEFA322561EF70096A608 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFA222561EF70096A608 /* Sword.swift */; };
-		94BEEFA522561F0E0096A608 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFA422561F0E0096A608 /* Weapon.swift */; };
+		94BEEFA522561F0E0096A608 /* WeaponProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFA422561F0E0096A608 /* WeaponProtocol.swift */; };
 		94BEEFA72256228E0096A608 /* Dagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFA62256228E0096A608 /* Dagger.swift */; };
 		94BEEFA9225623C50096A608 /* Bow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFA8225623C50096A608 /* Bow.swift */; };
-		94BEEFAD225624D40096A608 /* DamageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFAC225624D40096A608 /* DamageFactory.swift */; };
+		94BEEFAD225624D40096A608 /* WeaponFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEFAC225624D40096A608 /* WeaponFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		94BEEF9A225619F20096A608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94BEEF9C225619F20096A608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94BEEFA222561EF70096A608 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
-		94BEEFA422561F0E0096A608 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		94BEEFA422561F0E0096A608 /* WeaponProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponProtocol.swift; sourceTree = "<group>"; };
 		94BEEFA62256228E0096A608 /* Dagger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dagger.swift; sourceTree = "<group>"; };
 		94BEEFA8225623C50096A608 /* Bow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bow.swift; sourceTree = "<group>"; };
-		94BEEFAC225624D40096A608 /* DamageFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamageFactory.swift; sourceTree = "<group>"; };
+		94BEEFAC225624D40096A608 /* WeaponFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			children = (
 				94BEEF90225619EE0096A608 /* AppDelegate.swift */,
 				94BEEF92225619EE0096A608 /* ViewController.swift */,
-				94BEEFAC225624D40096A608 /* DamageFactory.swift */,
+				94BEEFAC225624D40096A608 /* WeaponFactory.swift */,
 				94BEEFAB225624AE0096A608 /* Weapon */,
 				94BEEF94225619EE0096A608 /* Main.storyboard */,
 				94BEEF97225619F20096A608 /* Assets.xcassets */,
@@ -79,7 +79,7 @@
 		94BEEFAB225624AE0096A608 /* Weapon */ = {
 			isa = PBXGroup;
 			children = (
-				94BEEFA422561F0E0096A608 /* Weapon.swift */,
+				94BEEFA422561F0E0096A608 /* WeaponProtocol.swift */,
 				94BEEFA222561EF70096A608 /* Sword.swift */,
 				94BEEFA62256228E0096A608 /* Dagger.swift */,
 				94BEEFA8225623C50096A608 /* Bow.swift */,
@@ -160,8 +160,8 @@
 			files = (
 				94BEEFA9225623C50096A608 /* Bow.swift in Sources */,
 				94BEEF93225619EE0096A608 /* ViewController.swift in Sources */,
-				94BEEFA522561F0E0096A608 /* Weapon.swift in Sources */,
-				94BEEFAD225624D40096A608 /* DamageFactory.swift in Sources */,
+				94BEEFA522561F0E0096A608 /* WeaponProtocol.swift in Sources */,
+				94BEEFAD225624D40096A608 /* WeaponFactory.swift in Sources */,
 				94BEEFA72256228E0096A608 /* Dagger.swift in Sources */,
 				94BEEF91225619EE0096A608 /* AppDelegate.swift in Sources */,
 				94BEEFA322561EF70096A608 /* Sword.swift in Sources */,
